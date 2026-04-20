@@ -1,10 +1,8 @@
-import { 
-  Phone, 
-  Mail, 
-  MapPin, 
-  FileText, 
-  Building2, 
-  Receipt,
+import {
+  Phone,
+  Mail,
+  MapPin,
+  FileText,
   Send,
   Clock
 } from 'lucide-react';
