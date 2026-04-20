@@ -19,7 +19,6 @@ const Navigation = () => {
     { name: 'Services', href: '#services' },
     { name: 'À Propos', href: '#about' },
     { name: 'Domaines', href: '#domaines' },
-    { name: 'Galerie', href: '#gallery' },
     { name: 'Contact', href: '#contact' },
   ];
 
@@ -84,6 +83,7 @@ const Navigation = () => {
 
           {/* Mobile Menu Button */}
           <button
+            type="button"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             className={`md:hidden p-2 rounded-lg transition-colors ${
               isScrolled

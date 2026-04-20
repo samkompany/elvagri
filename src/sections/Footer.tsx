@@ -146,7 +146,6 @@ const Footer = () => {
               <span className="text-gray-500">
                 RCCM: CD/LSH/RCCM/22-B-02130
               </span>
-              <span className="text-gray-500">ID NAT: 05-A0101-N09725T</span>
             </div>
           </div>
         </div>

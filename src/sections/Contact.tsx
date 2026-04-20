@@ -53,8 +53,6 @@ const Contact = () => {
 
   const legalInfo = [
     { icon: FileText, label: 'RCCM', value: 'CD/LSH/RCCM/22-B-02130' },
-    { icon: Building2, label: 'ID NAT', value: '05-A0101-N09725T' },
-    { icon: Receipt, label: 'Numéro d\'impôt', value: 'A2206461Y' },
   ];
 
   return (
