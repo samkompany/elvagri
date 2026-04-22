@@ -38,7 +38,7 @@ const Hero = () => {
             <div className="inline-flex items-center gap-2 bg-green-600/20 backdrop-blur-sm border border-green-500/30 rounded-full px-4 py-2">
               <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
               <span className="text-sm font-medium text-green-300">
-                Entreprise Agricole Congolaise
+                Elvagri production and consulting sarl
               </span>
             </div>
 

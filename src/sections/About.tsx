@@ -72,8 +72,8 @@ const About = () => {
                 <span className="text-green-600">and Consulting Sarl</span>
               </h2>
               <p className="text-gray-600 text-lg leading-relaxed">
-                Une entreprise agricole congolaise basée à Lubumbashi
-                (Haut-Katanga), œuvrant pour le développement de l'agriculture
+                Une entreprise agricole congolaise basée à 
+                Haut-Katanga, œuvrant pour le développement de l'agriculture
                 durable, la transformation agroalimentaire, et l'accompagnement
                 technique des exploitants agricoles et des communautés rurales.
               </p>
