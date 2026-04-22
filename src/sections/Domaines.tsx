@@ -1,15 +1,18 @@
-import { 
-  ClipboardList, 
-  Users, 
-  GraduationCap, 
-  Fish, 
+import {
+  ClipboardList,
+  Users,
+  GraduationCap,
+  Fish,
   Hexagon,
   Recycle,
   TrendingUp,
   ShoppingCart,
   TreePine,
   Package,
-  Stethoscope
+  Stethoscope,
+  Hammer,
+  ShoppingBag,
+  Store
 } from 'lucide-react';
 
 const Domaines = () => {
@@ -43,6 +46,24 @@ const Domaines = () => {
       title: 'Formation Pisciculture',
       description:
         'Formation complète en pisciculture : étangs, alimentation, alevins.',
+    },
+    {
+      icon: Hammer,
+      title: 'Construction des Étangs',
+      description:
+        'Conception et construction d\'étangs piscicoles adaptés à votre terrain et à vos besoins de production.',
+    },
+    {
+      icon: ShoppingBag,
+      title: 'Vente d\'Alevins',
+      description:
+        'Fourniture d\'alevins de qualité pour le démarrage et le renouvellement de vos élevages piscicoles.',
+    },
+    {
+      icon: Store,
+      title: 'Vente de Poisson Frais',
+      description:
+        'Commercialisation de poisson frais issu de nos étangs piscicoles, disponible pour les particuliers et les revendeurs.',
     },
     {
       icon: Hexagon,

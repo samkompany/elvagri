@@ -47,7 +47,7 @@ export const servicesData: ServiceItem[] = [
     icon: Fish,
     title: 'Pisciculture',
     description:
-      'Mise en place et gestion d\'étangs piscicoles, formation à l\'alimentation et au suivi des alevins.',
+      'Construction d\'étangs piscicoles, formation à l\'alimentation et au suivi des alevins, vente d\'alevins et de poisson frais.',
     cover: '/ps1.JPG',
     images: ['/ps1.JPG', '/ps2.JPG'],
   },
