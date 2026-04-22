@@ -3,8 +3,6 @@ import {
   Carrot,
   Beef,
   Fish,
-  Hexagon,
-  Factory,
   Sprout,
   Droplets,
 } from 'lucide-react';
@@ -50,22 +48,6 @@ export const servicesData: ServiceItem[] = [
       'Construction d\'étangs piscicoles, formation à l\'alimentation et au suivi des alevins, vente d\'alevins et de poisson frais.',
     cover: '/ps1.JPG',
     images: ['/ps1.JPG', '/ps2.JPG'],
-  },
-  {
-    icon: Hexagon,
-    title: 'Apiculture',
-    description:
-      'Formation complète à la production de miel et professionnalisation de l\'apiculture locale.',
-    cover: '/apiculture.jpg',
-    images: ['/apiculture.jpg'],
-  },
-  {
-    icon: Factory,
-    title: 'Transformation & Vente Bio',
-    description:
-      'Transformation et commercialisation de produits agricoles biologiques de haute qualité.',
-    cover: '/tr.jpeg',
-    images: ['/tr.jpeg', '/tr2.jpeg', '/tr3.jpeg'],
   },
   {
     icon: Sprout,
