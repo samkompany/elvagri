@@ -1,47 +1,39 @@
-import { Handshake } from 'lucide-react';
+const partners = [
+  { name: 'Enabel', logo: '/partenaire/Enabel_Logo_.png' },
+  { name: 'Secteur de Luilu', logo: '/partenaire/SECTEUR-DE-LUILU.svg' },
+  { name: 'Agro Volailles', logo: '/partenaire/agro_volailles.png' },
+  { name: 'APEFE', logo: '/partenaire/logoAPEFE.png' },
+  { name: 'AgriAfrique', logo: '/partenaire/logo_agriAFRIQUE.png' },
+  { name: 'Luba', logo: '/partenaire/logo_luba .jpg' },
+];
 
 const Partners = () => {
-  const partners = [
-    { name: 'Agri-Afric Consult' },
-    { name: 'Sud-Ouest Développement (SOD)' },
-    { name: 'Fraternité' },
-  ];
-
   return (
-    <section id="partenaires" className="py-24 bg-green-50">
+    <section id="partenaires" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 bg-green-100 rounded-full px-4 py-2 mb-6">
+        {/* Header */}
+        <div className="text-center mb-12">
+          <div className="inline-flex items-center gap-2 bg-green-100 rounded-full px-4 py-2 mb-4">
             <span className="w-2 h-2 bg-green-600 rounded-full" />
-            <span className="text-sm font-medium text-green-700">
-              Nos Partenaires
-            </span>
+            <span className="text-sm font-medium text-green-700">Nos Partenaires</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
-            Partenaires de
-            <span className="text-green-600"> Référence</span>
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
+            Ils nous font <span className="text-green-600">confiance</span>
           </h2>
-          <p className="text-gray-600 text-lg leading-relaxed">
-            Nous collaborons avec des organisations de confiance pour maximiser
-            l'impact de nos actions et offrir les meilleures solutions à nos
-            clients.
-          </p>
         </div>
 
-        {/* Logos */}
-        <div className="flex flex-wrap justify-center items-center gap-8">
+        {/* Logos grid */}
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6 items-center">
           {partners.map((partner, index) => (
             <div
               key={index}
-              className="flex flex-col items-center gap-4 bg-white rounded-2xl px-10 py-8 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+              className="flex items-center justify-center p-6 rounded-2xl bg-gray-50 hover:bg-white hover:shadow-md transition-all duration-300 grayscale hover:grayscale-0"
             >
-              <div className="w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center">
-                <Handshake className="w-8 h-8 text-green-600" />
-              </div>
-              <span className="text-gray-800 font-semibold text-center text-sm">
-                {partner.name}
-              </span>
+              <img
+                src={partner.logo}
+                alt={partner.name}
+                className="max-h-16 w-full object-contain"
+              />
             </div>
           ))}
         </div>
