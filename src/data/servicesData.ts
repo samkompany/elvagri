@@ -29,7 +29,7 @@ export const servicesData: ServiceItem[] = [
     icon: Carrot,
     title: 'Cultures Maraîchères & Vivrières',
     description:
-      'Accompagnement dans la production de légumes, céréales et cultures vivrières pour une alimentation durable.',
+      'Accompagnement dans la production de légumes, céréales et cultures vivrières pour une alimentation saine est durable.',
     cover: '/cl1.JPG',
     images: ['/cl1.JPG', '/cl2.jpeg', '/cl3.jpeg'],
   },
@@ -37,7 +37,7 @@ export const servicesData: ServiceItem[] = [
     icon: Beef,
     title: 'Élevage',
     description:
-      'Expertise en élevage de porcs, poulets, chèvres et autres animaux avec des techniques modernes et durables.',
+      'Spécialisés dans l\'élevage de poulets : poule saso (locale), poulet de chair et pondeuses. Également présents dans l\'élevage de porcs, chèvres et autres animaux avec des techniques modernes et durables.',
     cover: '/elv.JPG',
     images: ['/elv.JPG', '/elv1.jpeg', '/elv2.jpeg'],
   },

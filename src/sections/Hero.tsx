@@ -12,7 +12,7 @@ const Hero = () => {
   const stats = [
     { icon: Award, value: '+10', label: 'Ans d\'expertise' },
     { icon: Users, value: '500+', label: 'Clients satisfaits' },
-    { icon: Sprout, value: '1000+', label: 'Projets réalisés' },
+    { icon: Sprout, value: 'Plus de 40', label: 'Projets réalisés' },
   ];
 
   return (
@@ -52,7 +52,7 @@ const Hero = () => {
 
             <p className="text-lg text-white/80 max-w-xl leading-relaxed">
               ELVAGRI Production and Consulting Sarl accompagne les fermiers et
-              communautés rurales du Haut-Katanga pour le développement de
+              communautés rurales du Haut-Katanga ,lualabas pour le développement de
               l'agriculture durable et la transformation agroalimentaire.
             </p>
 

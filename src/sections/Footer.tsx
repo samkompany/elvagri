@@ -108,7 +108,7 @@ const Footer = () => {
                 <MapPin className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
                 <span className="text-gray-400 text-sm">
                   Route LUBUMBASHI, Quartier Joli site, Commune de SHITURU,
-                  Ville de Likasi, Haut-Katanga
+                  Ville de Likasi, Haut-Katanga, Lualaba
                 </span>
               </li>
               <li className="flex items-center gap-3">

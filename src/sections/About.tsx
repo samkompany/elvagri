@@ -1,4 +1,4 @@
-import { Check, Target, Heart, TrendingUp } from 'lucide-react';
+import { Check, Target, Heart, TrendingUp, ShoppingCart } from 'lucide-react';
 
 const About = () => {
   const objectives = [
@@ -20,6 +20,12 @@ const About = () => {
       description:
         'Soutenir les exploitants agricoles et communautés rurales pour améliorer leurs rendements',
     },
+    {
+      icon: ShoppingCart,
+      title: 'Production & Vente',
+      description:
+        'Produire et commercialiser des produits agricoles de qualité pour les marchés locaux et régionaux',
+    },
   ];
 
   const features = [
@@ -28,7 +34,8 @@ const About = () => {
     'Vision ambitieuse de l\'agro-transformation',
     'Accompagnement personnalisé des fermiers',
     'Amélioration des rendements et du niveau de vie',
-    'Couverture du Haut-Katanga et régions environnantes',
+    'Couverture du Haut-Katanga, Lualaba et régions environnantes',
+    'Production et vente de produits agricoles de qualité',
   ];
 
   return (
@@ -73,7 +80,7 @@ const About = () => {
               </h2>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Une entreprise agricole congolaise basée à 
-                Haut-Katanga, œuvrant pour le développement de l'agriculture
+                Haut-Katanga, Lualaba, œuvrant pour le développement de l'agriculture
                 durable, la transformation agroalimentaire, et l'accompagnement
                 technique des exploitants agricoles et des communautés rurales.
               </p>
