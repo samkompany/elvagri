@@ -29,7 +29,7 @@ export const servicesData: ServiceItem[] = [
     icon: Carrot,
     title: 'Cultures Maraîchères & Vivrières',
     description:
-      'Accompagnement dans la production de légumes, céréales et cultures vivrières pour une alimentation saine est durable.',
+      'Accompagnement dans la production de légumes et cultures vivrières pour une alimentation saine est durable.',
     cover: '/cl1.JPG',
     images: ['/cl1.JPG', '/cl2.jpeg', '/cl3.jpeg'],
   },
@@ -45,7 +45,7 @@ export const servicesData: ServiceItem[] = [
     icon: Fish,
     title: 'Pisciculture',
     description:
-      'Construction d\'étangs piscicoles, formation à l\'alimentation et au suivi des alevins, vente d\'alevins et de poisson frais.',
+      'Aménagement de sites piscicoles (construction d\'étangs en terre, d\'étangs hors-sol avec géomembrane, élevage en tanks), vente d\'aliments pour poissons, vente d\'alevins et de poissons frais, et formation pratique en pisciculture',
     cover: '/ps1.JPG',
     images: ['/ps1.JPG', '/ps2.JPG'],
   },
@@ -53,15 +53,15 @@ export const servicesData: ServiceItem[] = [
     icon: Sprout,
     title: 'Fourniture de Semences',
     description:
-      'Vente de semences certifiées, plantules et arbres fruitiers adaptés au climat local.',
+      'Fourniture et vente de semences certifiées de qualité, d\'engrais spécifiques (chimiques et biologiques), ainsi que la vente d\'arbres fruitiers adaptés au climat local',
     cover: '/vegetables.jpg',
     images: ['/vegetables.jpg'],
   },
   {
     icon: Droplets,
-    title: 'Engrais & Irrigation',
+    title: 'Irrigation',
     description:
-      'Fourniture d\'engrais bio et matériels d\'irrigation modernes pour optimiser vos rendements.',
+      'Fourniture de matériel d\'irrigation (motopompes diesel et à essence, tuyaux d\'aspiration et de refoulement avec accessoires, systèmes de goutte-à-goutte avec accessoires) et installation de systèmes d\'irrigation',
     cover: '/farming.jpg',
     images: ['/farming.jpg'],
   },
