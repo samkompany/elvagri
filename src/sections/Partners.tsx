@@ -6,6 +6,7 @@ const partners = [
   { name: 'AgriAfrique', logo: '/partenaire/logo_agriAFRIQUE.png' },
   { name: 'Luba', logo: '/partenaire/logo_luba .jpg' },
   { name: 'SOD', logo: '/partenaire/logo SOD.png' },
+  { name: 'AFBEC', logo: '/partenaire/logo AFBEC.jpeg' },
 ];
 
 const Partners = () => {
