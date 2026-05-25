@@ -31,7 +31,7 @@ const Contact = () => {
     {
       icon: Phone,
       label: 'Téléphone',
-      value: '+243 893 320 135',
+      value: '+243 893 320 135 / 0974 194 950',
       href: 'tel:+243893320135',
     },
     {

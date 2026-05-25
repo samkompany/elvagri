@@ -117,7 +117,7 @@ const Footer = () => {
                   href="tel:+243893320135"
                   className="text-gray-400 hover:text-green-400 transition-colors text-sm"
                 >
-                  +243 893 320 135
+                  +243 893 320 135 / 0974 194 950
                 </a>
               </li>
               <li className="flex items-center gap-3">
