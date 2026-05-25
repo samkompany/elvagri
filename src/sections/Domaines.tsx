@@ -91,9 +91,9 @@ const Domaines = () => {
     },
     {
       icon: Package,
-      title: 'Vente de Légumes Bio',
+      title: 'Vente de Légumes',
       description:
-        'Vente de légumes biologiques : tomates, choux, oignons, etc.',
+        'Vente de légumes frais et sain tomates, choux, oignons, etc.',
     },
     {
       icon: TreePine,
@@ -105,7 +105,7 @@ const Domaines = () => {
       icon: Package,
       title: 'Intrants Agricoles',
       description:
-        'Vente de semences, engrais et matériels d\'irrigation. Facilitation d\'accès aux animaux d\'élevage et intrants vétérinaires.',
+        'Vente de semences, engrais et matériels d\'irrigation. Facilitation d\'accès aux vente d\'animaux d\'élevage et intrants vétérinaires.',
     },
   ];
 
