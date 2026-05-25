@@ -37,7 +37,7 @@ const categories = [
     icon: Fish,
     title: 'Pisciculture',
     cover: '/ps1.JPG',
-    images: ['/ps1.JPG', '/ps2.JPG'],
+    images: ['/ps1.JPG', '/ps7.JPG', '/ps4.JPG', '/ps3.JPG', '/ps5.JPG', '/ps6.JPG', '/ps2.JPG'],
   },
   {
     icon: Hexagon,

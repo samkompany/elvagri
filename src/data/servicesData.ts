@@ -47,7 +47,7 @@ export const servicesData: ServiceItem[] = [
     description:
       'Aménagement de sites piscicoles (construction d\'étangs en terre, d\'étangs hors-sol avec géomembrane, élevage en tanks), vente d\'aliments pour poissons, vente d\'alevins et de poissons frais, et formation pratique en pisciculture',
     cover: '/ps1.JPG',
-    images: ['/ps1.JPG', '/ps2.JPG'],
+    images: ['/ps1.JPG', '/ps7.JPG', '/ps4.JPG', '/ps3.JPG', '/ps5.JPG', '/ps6.JPG', '/ps2.JPG'],
   },
   {
     icon: Sprout,
